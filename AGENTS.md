@@ -1,13 +1,15 @@
-## Agent skills
+# AI First Platform
 
-### Issue tracker
+An AI-first development platform that links employees, projects, agents and company rules.
+
+## Customer requirements
+
+`customer-requirements.md` holds the customer's goals and the scope of the first version. Read it before planning a feature or writing a spec.
+
+## Skills
+
+Project skills live in `.agents/skills/`. Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, and DSH read that directory directly. Keep it the only copy: no agent-specific mirrors.
+
+## Issue tracker
 
 Issues and specs live as GitHub issues in `borovvkovv/ai-first-platform`, managed with the `gh` CLI. See `docs/agents/issue-tracker.md`.
-
-### Triage labels
-
-Five canonical labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
-
-### Domain docs
-
-Single-context layout: `DOMAIN.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
